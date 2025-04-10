@@ -1,0 +1,161 @@
+- type: marking
+  id: RealvaliLegacy1
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(1)
+
+- type: marking
+  id: RealvaliLegacy2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(2)
+
+- type: marking
+  id: RealvaliLegacy3
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(3)
+
+- type: marking
+  id: RealvaliLegacy4
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(4)
+
+- type: marking
+  id: RealvaliLegacy5
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(5)
+
+- type: marking
+  id: RealvaliLegacy6
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(6)
+
+- type: marking
+  id: RealvaliLegacy7
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(7)
+
+- type: marking
+  id: RealvaliLegacy8
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(8)
+
+- type: marking
+  id: RealvaliLegacy9
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(9)
+
+- type: marking
+  id: RealvaliLegacy10
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(10)
+
+- type: marking
+  id: RealvaliLegacy11
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(11)
+
+- type: marking
+  id: RealvaliLegacy12
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy12
+
+- type: marking
+  id: RealvaliLegacy13
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(13)
+
+- type: marking
+  id: RealvaliLegacy14
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(14)
+
+- type: marking
+  id: RealvaliLegacy15
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(15)
+
+- type: marking
+  id: RealvaliLegacy16
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(16)
+
+- type: marking
+  id: RealvaliLegacy17
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(17)
+
+- type: marking
+  id: RealvaliLegacy18
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Realvali]
+  sprites:
+    - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_hair.rsi
+      state: RealvaliLegacy(18)

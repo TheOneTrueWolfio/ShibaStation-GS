@@ -1,0 +1,50 @@
+- type: body
+  id: Realvali
+  name: "Avali"
+  root: torso
+  slots:
+    head:
+      part: HeadRealvali
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoRealvali
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      - head # Shitmed Change
+      organs:
+        heart: OrganHumanHeart
+        lungs: OrganHumanLungs
+        stomach: OrganRealvaliStomach # Goobstation - classic furries can eat everything except chocolate :)
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
+    right arm:
+      part: RightArmRealvali
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmRealvali
+      connections:
+      - left hand
+    right hand:
+      part: RightHandRealvali
+    left hand:
+      part: LeftHandRealvali
+    right leg:
+      part: RightLegRealvali
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegRealvali
+      connections:
+      - left foot
+    right foot:
+      part: RightFootRealvali
+    left foot:
+      part: LeftFootRealvali

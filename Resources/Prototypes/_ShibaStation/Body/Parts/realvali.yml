@@ -1,0 +1,90 @@
+- type: entity
+  id: TorsoRealvali
+  name: "Avali torso"
+  parent: TorsoHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "torso_m"
+
+
+- type: entity
+  id: HeadRealvali
+  name: "Avali head"
+  parent: HeadHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "head_m"
+
+- type: entity
+  id: LeftArmRealvali
+  name: "left Avali arm"
+  parent: LeftArmHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "l_arm"
+
+- type: entity
+  id: RightArmRealvali
+  name: "right Avali arm"
+  parent: RightArmHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandRealvali
+  name: "left Avali hand"
+  parent: [PartHuman, BaseLeftHand] # Goob edit
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "l_hand"
+
+- type: entity
+  id: RightHandRealvali
+  name: "right Avali hand"
+  parent: [PartHuman, BaseRightHand] # Goob edit
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegRealvali
+  name: "left Avali leg"
+  parent: LeftLegHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "l_leg"
+
+- type: entity
+  id: RightLegRealvali
+  name: "right Avali leg"
+  parent: RightLegHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "r_leg"
+
+- type: entity
+  id: LeftFootRealvali
+  name: "left Avali foot"
+  parent: LeftFootHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "l_foot"
+
+- type: entity
+  id: RightFootRealvali
+  name: "right Avali foot"
+  parent: RightFootHuman
+  components:
+  - type: Sprite
+    sprite: _ShibaStation/Mobs/Species/Realvali/parts.rsi
+    state: "r_foot"

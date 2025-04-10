@@ -1,0 +1,81 @@
+- type: marking
+  id: Realvali Tail
+  bodyPart: Chest
+  markingCategory: Tail
+  speciesRestriction: [Realvali]
+  forcedColoring: true
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: tail
+
+- type: marking
+  id: Realvali TailFeathers
+  bodyPart: Chest
+  markingCategory: Tail
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: tail_feathers
+
+- type: marking
+  id: Realvali LArmFeathers
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: l_hand_feathers
+
+- type: marking
+  id: Realvali LLegFeathers
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: l_foot_feathers
+
+- type: marking
+  id: Realvali RArmFeathers
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: r_hand_feathers
+
+- type: marking
+  id: Realvali RLegFeathers
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: r_foot_feathers
+
+- type: marking
+  id: Realvali Fluff
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: fluff
+
+- type: marking
+  id: Realvali FluffHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: fluff_head
+
+- type: marking
+  id: Realvali FluffHeadUp
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Realvali]
+  sprites:
+  - sprite: _ShibaStation\Mobs\Customization\Realvali\realvali_markings.rsi
+    state: fluff_head_up

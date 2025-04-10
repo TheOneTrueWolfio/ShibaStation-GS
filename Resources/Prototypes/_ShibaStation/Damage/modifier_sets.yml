@@ -24,3 +24,9 @@
     Bloodloss: 0.0 # no double dipping
     Cellular: 0.0
     Caustic: 0.0
+
+- type: damageModifierSet
+  id: Realvali
+  coefficients: # Goobstation - natural cold resistance should reduce damage, but higher intolerance to heat should take more damage.
+    Heat: 1.1
+    Cold: 0.7

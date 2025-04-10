@@ -1,0 +1,275 @@
+- type: entity
+  save: false
+  name: Urist McChicken
+  parent: BaseMobHuman
+  id: BaseMobRealvali
+  abstract: true
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.28
+        density: 140
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: ScaleData # Goobstation
+    scale: 0.8, 0.8
+  - type: Sprite
+    scale: 0.8, 0.8
+  - type: DamageVisuals
+    thresholds: [ 10, 30, 50, 70 ]
+    damageOverlayGroups:
+      Brute:
+        sprite: _ShibaStation\Mobs\Effects\Realvali\brute_damage.rsi
+        color: "#C048C2"
+      Burn:
+        sprite: _ShibaStation\Mobs\Effects\Realvali\burn_damage.rsi
+  - type: FireVisuals
+    sprite: _ShibaStation\Mobs\Effects\Realvali\onfire.rsi
+    normalState: Avali_minor_burning
+    alternateState: Avali_burning
+  - type: HumanoidAppearance
+    species: Realvali
+  - type: Icon
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: full
+  - type: Body
+    prototype: Realvali
+    requiredLegs: 2
+  - type: Speech
+    speechVerb: Parrot
+    speechSounds: MaleRealvaliSpeech
+  - type: Vocal
+    sounds:
+      Male: MaleRealvaliSounds
+      Unsexed: MaleRealvaliSounds
+      Female: FemaleRealvaliSounds
+  - type: Hands
+    handDisplacement:
+      sizeMaps:
+        32:
+          sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+          state: inHand
+  - type: Inventory
+    speciesId: realvali
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: jumpsuit
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: eyes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: hands
+      head:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: head
+      back:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: back
+      ears:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: ears
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: feet
+      neck:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: neck
+      mask:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: mask
+      suitstorage:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: suitStorage
+      belt:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: belt
+    femaleDisplacements: # Goobstation - splitting up the genders broke displacements, apparently it won't just apply the same displacement to both genders :|
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: jumpsuit
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: eyes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: hands
+      head:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: head
+      back:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: back
+      ears:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: ears
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: feet
+      neck:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: neck
+      mask:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: mask
+      suitstorage:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: suitStorage
+      belt:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: belt
+  - type: FootPrints
+    leftBarePrint: "footprint-left-bare-lizard"
+    rightBarePrint: "footprint-right-bare-lizard"
+  - type: Bloodstream
+    bloodReagent: AmmoniaBlood
+  - type: MeleeWeapon 
+    soundHit:
+      collection: AlienClaw
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 5
+  - type: Damageable 
+    damageModifierSet: Resomi
+  - type: Temperature
+    coldDamageThreshold: 195.4 # Goobstation - freezing point of ammonia is -77.75°C
+    heatDamageThreshold: 320.15 # Goobstation - space chickens can't tolerate reasonable temperatures, but requiring them to stay icy would be cringe, so instead make their heat damage threshold dangerously close to standard atmos, at 47°C
+    coldDamage:
+      types:
+        Cold : 0.05 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 3 #per second, scales with temperature & other constants
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 2.5 # Goobstation - Birb move fast in zero-g
+  - type: PseudoItem # ShibaStation - smaller pseudoitem to fit two in a duffel
+    storedOffset: -10,0
+    shape:
+      - 0, 0, 3, 4
+
+
+- type: entity
+  save: false
+  name: Avali Dummy
+  parent: BaseSpeciesDummy
+  id: MobRealvaliDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy avali meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: Realvali
+  - type: Sprite
+    scale: 1, 1
+  - type: ScaleData # Goobstation
+    scale: 1, 1
+  - type: Inventory
+    speciesId: reptilian
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: jumpsuit
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: eyes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: hands
+      head:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: head
+      back:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: back
+      ears:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: ears
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: feet
+      neck:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: neck
+      mask:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: mask
+      suitstorage:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: suitStorage
+      belt:
+        sizeMaps:
+          32:
+            sprite: _ShibaStation\Mobs\Species\Realvali\displacement.rsi
+            state: belt

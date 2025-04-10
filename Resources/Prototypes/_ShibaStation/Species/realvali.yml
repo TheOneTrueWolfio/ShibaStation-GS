@@ -1,0 +1,146 @@
+- type: species
+  id: Realvali
+  name: species-name-realvali
+  roundStart: true
+  prototype: MobRealvali
+  sprites: MobRealvaliSprites
+  defaultSkinTone: "#faf7f7"
+  markingLimits: MobRealvaliMarkingLimits
+  dollPrototype: MobRealvaliDummy
+  skinColoration: Hues
+  maleFirstNames: names_realvali_male
+  femaleFirstNames: names_realvali_female
+
+- type: speciesBaseSprites
+  id: MobRealvaliSprites
+  sprites:
+    Head: MobRealvaliHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Chest: MobRealvaliTorso
+    Eyes: MobRealvaliEyes
+    LArm: MobRealvaliLArm
+    RArm: MobRealvaliRArm
+    LHand: MobRealvaliLHand
+    RHand: MobRealvaliRHand
+    LLeg: MobRealvaliLLeg
+    RLeg: MobRealvaliRLeg
+    LFoot: MobRealvaliLFoot
+    RFoot: MobRealvaliRFoot
+    Tail: MobHumanoidAnyMarking
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+
+- type: markingPoints
+  id: MobRealvaliMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 1
+      required: false
+    Tail:
+      points: 2
+      required: true
+      defaultMarkings: [ RealvaliTail, RealvaliTailFeathers ]
+    Head:
+      points: 2
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobRealvaliEyes
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Customization\Realvali\eyes.rsi
+    state: realvali
+
+- type: humanoidBaseSprite
+  id: MobRealvaliHead
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobRealvaliHeadMale
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobRealvaliHeadFemale
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobRealvaliTorso
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobRealvaliTorsoMale
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobRealvaliTorsoFemale
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobRealvaliLLeg
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobRealvaliLArm
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobRealvaliLHand
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobRealvaliLFoot
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobRealvaliRLeg
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobRealvaliRArm
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobRealvaliRHand
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobRealvaliRFoot
+  baseSprite:
+    sprite: _ShibaStation\Mobs\Species\Realvali\parts.rsi
+    state: r_foot
